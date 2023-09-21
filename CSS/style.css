@@ -1,0 +1,88 @@
+body {
+    padding: 150px 30px;
+}
+
+/* image divi için stil kuralları */
+.image {
+    display: flex;
+    justify-content: center; /* Yatayda ortalamak için */
+}
+
+/* ilk div için arka plan ve ortalama */
+.container {
+    background-color: #EEEEEE;
+    text-align: center;
+
+}
+
+/* ilk kutunun için stil */
+.first-box {
+    background-color: #7EE5DA;
+    width: 38%;
+    height: 85px;
+}
+
+/* ikinci kutunun için stil */
+.second-box {
+    background-color: #70CCC2;
+    width: 17%;
+    height: 85px;
+}
+
+/* üçüncü kutunun için stil */
+.third-box {
+    background-color: #62B3AA;
+    width: 45%;
+    height: 85px;
+}
+
+/* kutular için stiller */
+.boxes {
+    display: flex;
+    gap: 3px;
+}
+
+/* İlk p etiketi stil kuralları */
+.special-searches {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* İkinci p etiketi stil kuralları */
+.google-links {
+    text-align: center;
+    margin-top: 4px;
+}
+
+/* Üçüncü p etiketi stil kuralları */
+.google-updates {
+    text-align: center;
+}
+
+/* p etiketlerinin hepsi için ortalama */
+p {
+    text-align: center;
+}
+
+/* Üçüncü kutunun içindeki p etiketlerinin üst boşluklarını kaldırma; */
+.third-box p {
+    margin-top: 0;
+}
+
+/* boş input için genişlik */
+#input {
+    width: 360px;
+}
+
+/* e-mail inputu için genişlik */
+#e-mail {
+    width: 235px;
+}
+
+.container p, .boxes div p {
+    margin: 3px; /* Üst ve alt kenar boşluklar*/
+}
+
+.image img {
+    width: 360px; /* Genişlik değerini istediğiniz gibi ayarlayın */
+}
